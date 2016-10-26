@@ -11,9 +11,7 @@ namespace MenuItems
         {
             var user = GetUser();
             var menuItems = GetMenuItems();
-
-            Console.Write();
-
+            
             foreach (MenuItem menuItem in menuItems)
             {
                 if (menuItem.IsVisible())
